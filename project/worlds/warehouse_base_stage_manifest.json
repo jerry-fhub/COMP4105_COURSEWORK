@@ -1,0 +1,72 @@
+{
+  "scenario": "baseline",
+  "backend": "stage_world",
+  "cell_size_m": 1.0,
+  "bitmap_path": "worlds/warehouse_base_floorplan.png",
+  "world_path": "worlds/warehouse_base.world",
+  "project_root": "project",
+  "workspace_root": ".",
+  "stage": {
+    "world_path": "worlds/warehouse_base.world",
+    "bitmap_path": "worlds/warehouse_base_floorplan.png",
+    "manifest_path": "worlds/warehouse_base_stage_manifest.json",
+    "stage_available": true,
+    "stage_binary": null,
+    "smoke_test_ran": false,
+    "smoke_test_passed": null,
+    "smoke_test_return_code": null,
+    "smoke_test_output": ""
+  },
+  "resource_positions": {
+    "res_00": [
+      12,
+      13
+    ],
+    "res_01": [
+      15,
+      12
+    ],
+    "res_02": [
+      15,
+      11
+    ],
+    "res_03": [
+      16,
+      4
+    ],
+    "res_04": [
+      8,
+      17
+    ],
+    "res_05": [
+      9,
+      3
+    ],
+    "res_06": [
+      15,
+      17
+    ],
+    "res_07": [
+      17,
+      15
+    ]
+  },
+  "robot_positions": {
+    "robot_0": [
+      1,
+      1
+    ],
+    "robot_1": [
+      1,
+      1
+    ],
+    "robot_2": [
+      1,
+      1
+    ],
+    "robot_3": [
+      1,
+      1
+    ]
+  }
+}

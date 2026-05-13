@@ -1,0 +1,72 @@
+{
+  "scenario": "stress_sensing",
+  "backend": "stage_world",
+  "cell_size_m": 1.0,
+  "bitmap_path": "results_openai_gpt54/stage/stress_sensing/centralized/stress_sensing_centralized_seed16_floorplan.png",
+  "world_path": "results_openai_gpt54/stage/stress_sensing/centralized/stress_sensing_centralized_seed16.world",
+  "project_root": "project",
+  "workspace_root": ".",
+  "stage": {
+    "world_path": "results_openai_gpt54/stage/stress_sensing/centralized/stress_sensing_centralized_seed16.world",
+    "bitmap_path": "results_openai_gpt54/stage/stress_sensing/centralized/stress_sensing_centralized_seed16_floorplan.png",
+    "manifest_path": "results_openai_gpt54/stage/stress_sensing/centralized/stress_sensing_centralized_seed16_stage_manifest.json",
+    "stage_available": false,
+    "stage_binary": null,
+    "smoke_test_ran": false,
+    "smoke_test_passed": null,
+    "smoke_test_return_code": null,
+    "smoke_test_output": ""
+  },
+  "resource_positions": {
+    "res_00": [
+      11,
+      15
+    ],
+    "res_01": [
+      7,
+      14
+    ],
+    "res_02": [
+      7,
+      7
+    ],
+    "res_03": [
+      9,
+      0
+    ],
+    "res_04": [
+      0,
+      4
+    ],
+    "res_05": [
+      14,
+      14
+    ],
+    "res_06": [
+      7,
+      9
+    ],
+    "res_07": [
+      2,
+      11
+    ]
+  },
+  "robot_positions": {
+    "robot_0": [
+      1,
+      1
+    ],
+    "robot_1": [
+      1,
+      1
+    ],
+    "robot_2": [
+      1,
+      1
+    ],
+    "robot_3": [
+      1,
+      1
+    ]
+  }
+}

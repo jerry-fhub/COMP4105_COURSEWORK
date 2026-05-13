@@ -1,0 +1,84 @@
+{
+  "scenario": "high_coord",
+  "backend": "stage_world",
+  "cell_size_m": 1.0,
+  "bitmap_path": "results_openai_gpt54/stage/high_coord/contract_net/high_coord_contract_net_seed8_floorplan.png",
+  "world_path": "results_openai_gpt54/stage/high_coord/contract_net/high_coord_contract_net_seed8.world",
+  "project_root": "project",
+  "workspace_root": ".",
+  "stage": {
+    "world_path": "results_openai_gpt54/stage/high_coord/contract_net/high_coord_contract_net_seed8.world",
+    "bitmap_path": "results_openai_gpt54/stage/high_coord/contract_net/high_coord_contract_net_seed8_floorplan.png",
+    "manifest_path": "results_openai_gpt54/stage/high_coord/contract_net/high_coord_contract_net_seed8_stage_manifest.json",
+    "stage_available": false,
+    "stage_binary": null,
+    "smoke_test_ran": false,
+    "smoke_test_passed": null,
+    "smoke_test_return_code": null,
+    "smoke_test_output": ""
+  },
+  "resource_positions": {
+    "res_00": [
+      7,
+      11
+    ],
+    "res_01": [
+      6,
+      1
+    ],
+    "res_02": [
+      16,
+      6
+    ],
+    "res_03": [
+      15,
+      18
+    ],
+    "res_04": [
+      2,
+      15
+    ],
+    "res_05": [
+      8,
+      16
+    ],
+    "res_06": [
+      3,
+      2
+    ],
+    "res_07": [
+      3,
+      1
+    ],
+    "res_08": [
+      15,
+      16
+    ],
+    "res_09": [
+      4,
+      19
+    ]
+  },
+  "robot_positions": {
+    "robot_0": [
+      1,
+      1
+    ],
+    "robot_1": [
+      1,
+      1
+    ],
+    "robot_2": [
+      1,
+      1
+    ],
+    "robot_3": [
+      1,
+      1
+    ],
+    "robot_4": [
+      1,
+      1
+    ]
+  }
+}

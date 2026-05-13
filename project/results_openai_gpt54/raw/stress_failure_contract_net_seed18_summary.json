@@ -1,0 +1,32 @@
+{
+  "strategy": "contract_net",
+  "scenario": "stress_failure",
+  "seed": 18,
+  "max_steps": 220,
+  "environment_backend": "stage_world",
+  "completed": true,
+  "completion_rate": 1.0,
+  "makespan": 174,
+  "delivered_resources": 8,
+  "total_resources": 8,
+  "total_collected_value": 100,
+  "average_travel_distance": 131.75,
+  "idle_time_ratio": 0.24281609195402298,
+  "average_team_formation_time": 8.375,
+  "replans": 10,
+  "communication_messages": 67,
+  "llm_token_usage": 0,
+  "average_llm_latency_ms": 0.0,
+  "invalid_llm_outputs": 0,
+  "failure_recovery_time": 3.0,
+  "stage_available": false,
+  "stage_world_path": "results_openai_gpt54/stage/stress_failure/contract_net/stress_failure_contract_net_seed18.world",
+  "stage_bitmap_path": "results_openai_gpt54/stage/stress_failure/contract_net/stress_failure_contract_net_seed18_floorplan.png",
+  "stage_manifest_path": "results_openai_gpt54/stage/stress_failure/contract_net/stress_failure_contract_net_seed18_stage_manifest.json",
+  "stage_smoketest_passed": null,
+  "notes": {
+    "explored_ratio": 0.951048951048951,
+    "stage_smoke_test_ran": false,
+    "stage_smoke_test_return_code": null
+  }
+}

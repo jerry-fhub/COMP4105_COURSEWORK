@@ -1,0 +1,618 @@
+{
+  "world": {
+    "width": 18,
+    "height": 18,
+    "depot": [
+      1,
+      1
+    ],
+    "obstacle_count": 38,
+    "explored_cells": 286,
+    "environment_backend": "stage_world",
+    "environment_artifacts": {
+      "world_path": "results_openai_gpt54/stage/stress_failure/llm/stress_failure_llm_seed8.world",
+      "bitmap_path": "results_openai_gpt54/stage/stress_failure/llm/stress_failure_llm_seed8_floorplan.png",
+      "manifest_path": "results_openai_gpt54/stage/stress_failure/llm/stress_failure_llm_seed8_stage_manifest.json",
+      "stage_available": false,
+      "stage_binary": null,
+      "smoke_test_ran": false,
+      "smoke_test_passed": null,
+      "smoke_test_return_code": null,
+      "smoke_test_output": ""
+    }
+  },
+  "robots": [
+    {
+      "robot_id": "robot_0",
+      "position": [
+        1,
+        1
+      ],
+      "sensor_range": 3,
+      "depot": [
+        1,
+        1
+      ],
+      "mode": "carrying",
+      "assignment": null,
+      "carrying_resource": null,
+      "current_target": null,
+      "path": [],
+      "failed": false,
+      "distance_travelled": 188,
+      "idle_steps": 9,
+      "messages_sent": 0,
+      "assignments_received": 6,
+      "task_wait_start": null,
+      "observed_resources": []
+    },
+    {
+      "robot_id": "robot_1",
+      "position": [
+        1,
+        10
+      ],
+      "sensor_range": 3,
+      "depot": [
+        1,
+        1
+      ],
+      "mode": "failed",
+      "assignment": null,
+      "carrying_resource": null,
+      "current_target": null,
+      "path": [],
+      "failed": true,
+      "distance_travelled": 43,
+      "idle_steps": 154,
+      "messages_sent": 0,
+      "assignments_received": 3,
+      "task_wait_start": null,
+      "observed_resources": [
+        "res_01"
+      ]
+    },
+    {
+      "robot_id": "robot_2",
+      "position": [
+        1,
+        1
+      ],
+      "sensor_range": 3,
+      "depot": [
+        1,
+        1
+      ],
+      "mode": "carrying",
+      "assignment": null,
+      "carrying_resource": null,
+      "current_target": null,
+      "path": [],
+      "failed": false,
+      "distance_travelled": 172,
+      "idle_steps": 25,
+      "messages_sent": 0,
+      "assignments_received": 4,
+      "task_wait_start": null,
+      "observed_resources": [
+        "res_03",
+        "res_04",
+        "res_06"
+      ]
+    },
+    {
+      "robot_id": "robot_3",
+      "position": [
+        3,
+        1
+      ],
+      "sensor_range": 3,
+      "depot": [
+        1,
+        1
+      ],
+      "mode": "idle",
+      "assignment": null,
+      "carrying_resource": null,
+      "current_target": null,
+      "path": [],
+      "failed": false,
+      "distance_travelled": 144,
+      "idle_steps": 53,
+      "messages_sent": 0,
+      "assignments_received": 4,
+      "task_wait_start": null,
+      "observed_resources": [
+        "res_00",
+        "res_02",
+        "res_05",
+        "res_07"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "resource_id": "res_00",
+      "position": [
+        7,
+        11
+      ],
+      "required_agents": 3,
+      "value": 12,
+      "status": "delivered",
+      "discovered_at": 43,
+      "discovered_by": "robot_3",
+      "assigned_team": [],
+      "first_assignment_at": 70,
+      "team_formed_at": 83,
+      "collection_started_at": 83,
+      "delivered_at": 99,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_01",
+      "position": [
+        6,
+        1
+      ],
+      "required_agents": 1,
+      "value": 9,
+      "status": "delivered",
+      "discovered_at": 2,
+      "discovered_by": "robot_1",
+      "assigned_team": [],
+      "first_assignment_at": 5,
+      "team_formed_at": 5,
+      "collection_started_at": 5,
+      "delivered_at": 10,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_02",
+      "position": [
+        16,
+        6
+      ],
+      "required_agents": 2,
+      "value": 8,
+      "status": "delivered",
+      "discovered_at": 117,
+      "discovered_by": "robot_3",
+      "assigned_team": [],
+      "first_assignment_at": 120,
+      "team_formed_at": 121,
+      "collection_started_at": 121,
+      "delivered_at": 141,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_03",
+      "position": [
+        14,
+        15
+      ],
+      "required_agents": 2,
+      "value": 15,
+      "status": "delivered",
+      "discovered_at": 128,
+      "discovered_by": "robot_2",
+      "assigned_team": [],
+      "first_assignment_at": 145,
+      "team_formed_at": 169,
+      "collection_started_at": 169,
+      "delivered_at": 196,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_04",
+      "position": [
+        6,
+        12
+      ],
+      "required_agents": 1,
+      "value": 9,
+      "status": "delivered",
+      "discovered_at": 47,
+      "discovered_by": "robot_2",
+      "assigned_team": [],
+      "first_assignment_at": 50,
+      "team_formed_at": 51,
+      "collection_started_at": 51,
+      "delivered_at": 67,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_05",
+      "position": [
+        0,
+        8
+      ],
+      "required_agents": 2,
+      "value": 15,
+      "status": "delivered",
+      "discovered_at": 11,
+      "discovered_by": "robot_3",
+      "assigned_team": [],
+      "first_assignment_at": 15,
+      "team_formed_at": 19,
+      "collection_started_at": 19,
+      "delivered_at": 27,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_06",
+      "position": [
+        12,
+        3
+      ],
+      "required_agents": 2,
+      "value": 9,
+      "status": "delivered",
+      "discovered_at": 10,
+      "discovered_by": "robot_2",
+      "assigned_team": [],
+      "first_assignment_at": 10,
+      "team_formed_at": 14,
+      "collection_started_at": 14,
+      "delivered_at": 27,
+      "carrier_ids": [],
+      "reassignments": 0,
+      "needs_recovery": false
+    },
+    {
+      "resource_id": "res_07",
+      "position": [
+        2,
+        12
+      ],
+      "required_agents": 2,
+      "value": 14,
+      "status": "delivered",
+      "discovered_at": 13,
+      "discovered_by": "robot_3",
+      "assigned_team": [],
+      "first_assignment_at": 30,
+      "team_formed_at": 53,
+      "collection_started_at": 53,
+      "delivered_at": 65,
+      "carrier_ids": [],
+      "reassignments": 1,
+      "needs_recovery": false
+    }
+  ],
+  "events": [
+    {
+      "step": 2,
+      "event": "resource_discovered",
+      "resource_id": "res_01",
+      "robot_id": "robot_1",
+      "position": [
+        6,
+        1
+      ]
+    },
+    {
+      "step": 5,
+      "event": "team_assigned",
+      "resource_id": "res_01",
+      "team": [
+        "robot_1"
+      ]
+    },
+    {
+      "step": 5,
+      "event": "resource_collected",
+      "resource_id": "res_01",
+      "team": [
+        "robot_1"
+      ]
+    },
+    {
+      "step": 10,
+      "event": "resource_discovered",
+      "resource_id": "res_06",
+      "robot_id": "robot_2",
+      "position": [
+        12,
+        3
+      ]
+    },
+    {
+      "step": 10,
+      "event": "team_assigned",
+      "resource_id": "res_06",
+      "team": [
+        "robot_2",
+        "robot_0"
+      ]
+    },
+    {
+      "step": 10,
+      "event": "resource_delivered",
+      "resource_id": "res_01",
+      "team": [
+        "robot_1"
+      ]
+    },
+    {
+      "step": 11,
+      "event": "resource_discovered",
+      "resource_id": "res_05",
+      "robot_id": "robot_3",
+      "position": [
+        0,
+        8
+      ]
+    },
+    {
+      "step": 13,
+      "event": "resource_discovered",
+      "resource_id": "res_07",
+      "robot_id": "robot_3",
+      "position": [
+        2,
+        12
+      ]
+    },
+    {
+      "step": 14,
+      "event": "resource_collected",
+      "resource_id": "res_06",
+      "team": [
+        "robot_2",
+        "robot_0"
+      ]
+    },
+    {
+      "step": 15,
+      "event": "team_assigned",
+      "resource_id": "res_05",
+      "team": [
+        "robot_1",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 19,
+      "event": "resource_collected",
+      "resource_id": "res_05",
+      "team": [
+        "robot_1",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 27,
+      "event": "resource_delivered",
+      "resource_id": "res_05",
+      "team": [
+        "robot_1",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 27,
+      "event": "resource_delivered",
+      "resource_id": "res_06",
+      "team": [
+        "robot_2",
+        "robot_0"
+      ]
+    },
+    {
+      "step": 30,
+      "event": "team_assigned",
+      "resource_id": "res_07",
+      "team": [
+        "robot_0",
+        "robot_1"
+      ]
+    },
+    {
+      "step": 41,
+      "event": "resource_collected",
+      "resource_id": "res_07",
+      "team": [
+        "robot_0",
+        "robot_1"
+      ]
+    },
+    {
+      "step": 43,
+      "event": "resource_discovered",
+      "resource_id": "res_00",
+      "robot_id": "robot_3",
+      "position": [
+        7,
+        11
+      ]
+    },
+    {
+      "step": 45,
+      "event": "robot_failed",
+      "robot_id": "robot_1"
+    },
+    {
+      "step": 45,
+      "event": "resource_dropped",
+      "resource_id": "res_07"
+    },
+    {
+      "step": 45,
+      "event": "team_assigned",
+      "resource_id": "res_07",
+      "team": [
+        "robot_0",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 47,
+      "event": "resource_discovered",
+      "resource_id": "res_04",
+      "robot_id": "robot_2",
+      "position": [
+        6,
+        12
+      ]
+    },
+    {
+      "step": 50,
+      "event": "team_assigned",
+      "resource_id": "res_04",
+      "team": [
+        "robot_2"
+      ]
+    },
+    {
+      "step": 51,
+      "event": "resource_collected",
+      "resource_id": "res_04",
+      "team": [
+        "robot_2"
+      ]
+    },
+    {
+      "step": 53,
+      "event": "resource_collected",
+      "resource_id": "res_07",
+      "team": [
+        "robot_0",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 65,
+      "event": "resource_delivered",
+      "resource_id": "res_07",
+      "team": [
+        "robot_0",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 67,
+      "event": "resource_delivered",
+      "resource_id": "res_04",
+      "team": [
+        "robot_2"
+      ]
+    },
+    {
+      "step": 70,
+      "event": "team_assigned",
+      "resource_id": "res_00",
+      "team": [
+        "robot_0",
+        "robot_2",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 83,
+      "event": "resource_collected",
+      "resource_id": "res_00",
+      "team": [
+        "robot_0",
+        "robot_2",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 99,
+      "event": "resource_delivered",
+      "resource_id": "res_00",
+      "team": [
+        "robot_0",
+        "robot_2",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 117,
+      "event": "resource_discovered",
+      "resource_id": "res_02",
+      "robot_id": "robot_3",
+      "position": [
+        16,
+        6
+      ]
+    },
+    {
+      "step": 120,
+      "event": "team_assigned",
+      "resource_id": "res_02",
+      "team": [
+        "robot_0",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 121,
+      "event": "resource_collected",
+      "resource_id": "res_02",
+      "team": [
+        "robot_0",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 128,
+      "event": "resource_discovered",
+      "resource_id": "res_03",
+      "robot_id": "robot_2",
+      "position": [
+        14,
+        15
+      ]
+    },
+    {
+      "step": 141,
+      "event": "resource_delivered",
+      "resource_id": "res_02",
+      "team": [
+        "robot_0",
+        "robot_3"
+      ]
+    },
+    {
+      "step": 145,
+      "event": "team_assigned",
+      "resource_id": "res_03",
+      "team": [
+        "robot_2",
+        "robot_0"
+      ]
+    },
+    {
+      "step": 169,
+      "event": "resource_collected",
+      "resource_id": "res_03",
+      "team": [
+        "robot_2",
+        "robot_0"
+      ]
+    },
+    {
+      "step": 196,
+      "event": "resource_delivered",
+      "resource_id": "res_03",
+      "team": [
+        "robot_2",
+        "robot_0"
+      ]
+    }
+  ]
+}

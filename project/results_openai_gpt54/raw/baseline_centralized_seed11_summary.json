@@ -1,0 +1,32 @@
+{
+  "strategy": "centralized",
+  "scenario": "baseline",
+  "seed": 11,
+  "max_steps": 220,
+  "environment_backend": "stage_world",
+  "completed": false,
+  "completion_rate": 0.875,
+  "makespan": 220,
+  "delivered_resources": 7,
+  "total_resources": 8,
+  "total_collected_value": 78,
+  "average_travel_distance": 171.0,
+  "idle_time_ratio": 0.22272727272727272,
+  "average_team_formation_time": 9.571428571428571,
+  "replans": 8,
+  "communication_messages": 900,
+  "llm_token_usage": 0,
+  "average_llm_latency_ms": 0.0,
+  "invalid_llm_outputs": 0,
+  "failure_recovery_time": null,
+  "stage_available": false,
+  "stage_world_path": "results_openai_gpt54/stage/baseline/centralized/baseline_centralized_seed11.world",
+  "stage_bitmap_path": "results_openai_gpt54/stage/baseline/centralized/baseline_centralized_seed11_floorplan.png",
+  "stage_manifest_path": "results_openai_gpt54/stage/baseline/centralized/baseline_centralized_seed11_stage_manifest.json",
+  "stage_smoketest_passed": null,
+  "notes": {
+    "explored_ratio": 1.0,
+    "stage_smoke_test_ran": false,
+    "stage_smoke_test_return_code": null
+  }
+}

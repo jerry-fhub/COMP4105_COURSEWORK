@@ -1,0 +1,32 @@
+{
+  "strategy": "llm",
+  "scenario": "stress_failure",
+  "seed": 7,
+  "max_steps": 220,
+  "environment_backend": "stage_world",
+  "completed": true,
+  "completion_rate": 1.0,
+  "makespan": 112,
+  "delivered_resources": 8,
+  "total_resources": 8,
+  "total_collected_value": 93,
+  "average_travel_distance": 84.25,
+  "idle_time_ratio": 0.24776785714285715,
+  "average_team_formation_time": 2.875,
+  "replans": 7,
+  "communication_messages": 58,
+  "llm_token_usage": 9737,
+  "average_llm_latency_ms": 1418.1220814500653,
+  "invalid_llm_outputs": 0,
+  "failure_recovery_time": null,
+  "stage_available": false,
+  "stage_world_path": "results_openai_gpt54/stage/stress_failure/llm/stress_failure_llm_seed7.world",
+  "stage_bitmap_path": "results_openai_gpt54/stage/stress_failure/llm/stress_failure_llm_seed7_floorplan.png",
+  "stage_manifest_path": "results_openai_gpt54/stage/stress_failure/llm/stress_failure_llm_seed7_stage_manifest.json",
+  "stage_smoketest_passed": null,
+  "notes": {
+    "explored_ratio": 1.0,
+    "stage_smoke_test_ran": false,
+    "stage_smoke_test_return_code": null
+  }
+}

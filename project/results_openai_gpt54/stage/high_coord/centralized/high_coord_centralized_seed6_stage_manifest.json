@@ -1,0 +1,84 @@
+{
+  "scenario": "high_coord",
+  "backend": "stage_world",
+  "cell_size_m": 1.0,
+  "bitmap_path": "results_openai_gpt54/stage/high_coord/centralized/high_coord_centralized_seed6_floorplan.png",
+  "world_path": "results_openai_gpt54/stage/high_coord/centralized/high_coord_centralized_seed6.world",
+  "project_root": "project",
+  "workspace_root": ".",
+  "stage": {
+    "world_path": "results_openai_gpt54/stage/high_coord/centralized/high_coord_centralized_seed6.world",
+    "bitmap_path": "results_openai_gpt54/stage/high_coord/centralized/high_coord_centralized_seed6_floorplan.png",
+    "manifest_path": "results_openai_gpt54/stage/high_coord/centralized/high_coord_centralized_seed6_stage_manifest.json",
+    "stage_available": false,
+    "stage_binary": null,
+    "smoke_test_ran": false,
+    "smoke_test_passed": null,
+    "smoke_test_return_code": null,
+    "smoke_test_output": ""
+  },
+  "resource_positions": {
+    "res_00": [
+      18,
+      2
+    ],
+    "res_01": [
+      1,
+      0
+    ],
+    "res_02": [
+      10,
+      0
+    ],
+    "res_03": [
+      13,
+      17
+    ],
+    "res_04": [
+      6,
+      18
+    ],
+    "res_05": [
+      19,
+      2
+    ],
+    "res_06": [
+      2,
+      11
+    ],
+    "res_07": [
+      14,
+      3
+    ],
+    "res_08": [
+      1,
+      18
+    ],
+    "res_09": [
+      11,
+      15
+    ]
+  },
+  "robot_positions": {
+    "robot_0": [
+      1,
+      1
+    ],
+    "robot_1": [
+      1,
+      1
+    ],
+    "robot_2": [
+      1,
+      1
+    ],
+    "robot_3": [
+      1,
+      1
+    ],
+    "robot_4": [
+      1,
+      1
+    ]
+  }
+}

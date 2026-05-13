@@ -1,0 +1,32 @@
+{
+  "strategy": "llm",
+  "scenario": "more_agents",
+  "seed": 14,
+  "max_steps": 260,
+  "environment_backend": "stage_world",
+  "completed": true,
+  "completion_rate": 1.0,
+  "makespan": 192,
+  "delivered_resources": 12,
+  "total_resources": 12,
+  "total_collected_value": 164,
+  "average_travel_distance": 185.0,
+  "idle_time_ratio": 0.036458333333333336,
+  "average_team_formation_time": 9.166666666666666,
+  "replans": 9,
+  "communication_messages": 103,
+  "llm_token_usage": 20857,
+  "average_llm_latency_ms": 3186.7306731741587,
+  "invalid_llm_outputs": 0,
+  "failure_recovery_time": null,
+  "stage_available": false,
+  "stage_world_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed14.world",
+  "stage_bitmap_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed14_floorplan.png",
+  "stage_manifest_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed14_stage_manifest.json",
+  "stage_smoketest_passed": null,
+  "notes": {
+    "explored_ratio": 0.9710982658959537,
+    "stage_smoke_test_ran": false,
+    "stage_smoke_test_return_code": null
+  }
+}

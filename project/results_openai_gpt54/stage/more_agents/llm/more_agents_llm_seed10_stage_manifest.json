@@ -1,0 +1,96 @@
+{
+  "scenario": "more_agents",
+  "backend": "stage_world",
+  "cell_size_m": 1.0,
+  "bitmap_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed10_floorplan.png",
+  "world_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed10.world",
+  "project_root": "project",
+  "workspace_root": ".",
+  "stage": {
+    "world_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed10.world",
+    "bitmap_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed10_floorplan.png",
+    "manifest_path": "results_openai_gpt54/stage/more_agents/llm/more_agents_llm_seed10_stage_manifest.json",
+    "stage_available": false,
+    "stage_binary": null,
+    "smoke_test_ran": false,
+    "smoke_test_passed": null,
+    "smoke_test_return_code": null,
+    "smoke_test_output": ""
+  },
+  "resource_positions": {
+    "res_00": [
+      18,
+      1
+    ],
+    "res_01": [
+      0,
+      6
+    ],
+    "res_02": [
+      8,
+      5
+    ],
+    "res_03": [
+      10,
+      2
+    ],
+    "res_04": [
+      1,
+      13
+    ],
+    "res_05": [
+      11,
+      12
+    ],
+    "res_06": [
+      11,
+      4
+    ],
+    "res_07": [
+      14,
+      19
+    ],
+    "res_08": [
+      0,
+      7
+    ],
+    "res_09": [
+      17,
+      11
+    ],
+    "res_10": [
+      10,
+      17
+    ],
+    "res_11": [
+      2,
+      18
+    ]
+  },
+  "robot_positions": {
+    "robot_0": [
+      1,
+      1
+    ],
+    "robot_1": [
+      1,
+      1
+    ],
+    "robot_2": [
+      1,
+      1
+    ],
+    "robot_3": [
+      1,
+      1
+    ],
+    "robot_4": [
+      1,
+      1
+    ],
+    "robot_5": [
+      1,
+      1
+    ]
+  }
+}

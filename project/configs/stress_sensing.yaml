@@ -1,0 +1,27 @@
+name: stress_sensing
+width: 18
+height: 18
+depot: [1, 1]
+robot_count: 4
+sensor_range: 2
+max_steps: 220
+resource_count: 8
+obstacle_rectangles:
+  - [4, 4, 2, 6]
+  - [10, 2, 2, 8]
+  - [7, 12, 5, 2]
+resource_required_agents: [1, 2, 3]
+resource_required_weights: [0.35, 0.4, 0.25]
+resource_value_range: [6, 14]
+replan_interval: 3
+llm_replan_interval: 5
+team_timeout: 8
+seed: 0
+output_dir: results_openai_gpt54
+environment_backend: stage_world
+cell_size_m: 1.0
+stage_pixels_per_cell: 20
+stage_smoketest: false
+llm_backend: openai
+llm_model: gpt-5.4
+llm_cache_path: results_openai_gpt54/raw/llm_cache_openai_gpt54.json

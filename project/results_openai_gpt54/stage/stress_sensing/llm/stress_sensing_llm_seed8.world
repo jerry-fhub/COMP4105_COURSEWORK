@@ -1,0 +1,108 @@
+# Generated Stage world for the COMP3004/4105 coursework project.
+# scenario=stress_sensing
+# backend=stage_world
+# cell_size_m=1.0
+include "pioneer.inc"
+include "map.inc"
+
+resolution 0.050
+speedup 0
+paused 0
+
+window
+(
+  size [ 900.000 900.000 ]
+  scale 50.000
+  center [ 0.000 0.000 ]
+  rotate [ 0 0 ]
+  show_data 1
+)
+
+define depot_marker model
+(
+  size [ 0.400 0.400 0.040 ]
+  color "blue"
+  gui_nose 0
+  gui_move 0
+  gui_outline 1
+  obstacle_return 0
+  ranger_return -1
+  gripper_return 0
+  fiducial_return 0
+)
+
+define resource_marker model
+(
+  size [ 0.280 0.280 0.040 ]
+  color "green"
+  gui_nose 0
+  gui_move 0
+  gui_outline 1
+  obstacle_return 0
+  ranger_return -1
+  gripper_return 0
+  fiducial_return 0
+)
+
+floorplan
+(
+  name "stress_sensing_floorplan"
+  bitmap "stress_sensing_llm_seed8_floorplan.png"
+  size [ 18.000 18.000 0.600 ]
+  pose [ 0.000 0.000 0.000 0.000 ]
+  map_resolution 0.050
+  color "gray40"
+  gui_grid 1
+  gui_outline 1
+)
+
+depot_marker( name "depot" pose [ -7.500 7.500 0.000 0.000 ] )
+
+resource_marker( name "res_00" pose [ -1.500 -2.500 0.000 0.000 ] color "red")
+resource_marker( name "res_01" pose [ -2.500 7.500 0.000 0.000 ] color "green")
+resource_marker( name "res_02" pose [ 7.500 2.500 0.000 0.000 ] color "orange")
+resource_marker( name "res_03" pose [ 5.500 -6.500 0.000 0.000 ] color "orange")
+resource_marker( name "res_04" pose [ -2.500 -3.500 0.000 0.000 ] color "green")
+resource_marker( name "res_05" pose [ -8.500 0.500 0.000 0.000 ] color "orange")
+resource_marker( name "res_06" pose [ 3.500 5.500 0.000 0.000 ] color "orange")
+resource_marker( name "res_07" pose [ -6.500 -3.500 0.000 0.000 ] color "orange")
+
+pioneer2dx
+(
+  name "robot_0"
+  color "red"
+  pose [ -7.280 7.500 0.000 0.000 ]
+  localization "gps"
+  localization_origin [ 0 0 0 0 ]
+  trail_length 250
+)
+
+pioneer2dx
+(
+  name "robot_1"
+  color "cyan"
+  pose [ -7.500 7.720 0.000 90.000 ]
+  localization "gps"
+  localization_origin [ 0 0 0 0 ]
+  trail_length 250
+)
+
+pioneer2dx
+(
+  name "robot_2"
+  color "magenta"
+  pose [ -7.720 7.500 0.000 180.000 ]
+  localization "gps"
+  localization_origin [ 0 0 0 0 ]
+  trail_length 250
+)
+
+pioneer2dx
+(
+  name "robot_3"
+  color "yellow"
+  pose [ -7.500 7.280 0.000 270.000 ]
+  localization "gps"
+  localization_origin [ 0 0 0 0 ]
+  trail_length 250
+)
